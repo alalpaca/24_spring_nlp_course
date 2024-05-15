@@ -39,4 +39,4 @@ with open("sentiment_scores.txt", "w", encoding="utf-8") as f:
     for comment, sentiment in zip(final_data["Comment"], final_y_pred):
         f.write(f"{sentiment}\n")
 
-print("情感分类结果已保存到 sentiment_results.txt 文件。")
+print("情感分类结果已保存到 sentiment_scores.txt 文件。")
